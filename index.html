@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schema Builder by BrentLeeD</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<head>SKeEmU </head>
+<body>
+  <div id="schema-builder">
+    <label for="api-select">Select API:</label>
+    <select id="api-select">
+      <option value="chatgpt">ChatGPT</option>
+      <option value="gemini">Gemini</option>
+    </select>
+
+    <div id="chatgpt-messages">
+      <div class="message">
+        <input type="text" class="role" placeholder="Role (e.g., system, user, assistant)">
+        <input type="text" class="content" placeholder="Content">
+      </div>
+    </div>
+
+    <div id="gemini-messages" style="display: none;">
+      <div class="gemini-content">
+        <input type="text" class="prompt" placeholder="Prompt">
+      </div>
+    </div>
+
+    <button id="add-message">Add Message</button>
+    <button id="generate-request">Generate API Request</button>
+    <button id="copy-request">Copy Request</button>
+    <textarea id="request-body" readonly></textarea>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
