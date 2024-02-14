@@ -2,13 +2,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#headingnorth {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: #ff00d4;
-  color: #fff;
-
 #schema-builder {
   max-width: 600px;
   margin: 0 auto;
@@ -58,4 +51,4 @@ textarea {
   100% {
     box-shadow: 0 0 5px #00ff5e, 0 0 5px #007bff, 0 0 5px #007bff;
   }
-}}
+}
